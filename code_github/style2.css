@@ -1,0 +1,235 @@
+h1{
+text-align: center;	
+color: white;
+}
+body{
+	background-color: rgba(100,100,100,1);
+	font-family: Roboto, sans-serif;
+}
+p{
+	padding-bottom: 7px;
+	color:white;
+}
+.container1{
+	height: 200px;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+	}
+.container2{
+	background-color: rgba(80,80,80,1);
+	align-items: center;
+	display: flex;
+	margin-top:33em;
+	width:50em;
+	height: 45em;
+	border:solid 5px;
+	border-color:rgba(60,60,60,1);
+}
+.portail{
+	margin-left: 50px;
+	margin-bottom: 20px;
+}
+.menu{
+	margin-top: 20em;
+}
+
+.infoCand{
+	padding-left: 7em;
+	margin-top: 0px;
+	margin-right: 20px;
+}
+.vlrcand{
+ margin-top: 80px;
+}
+.btns{
+margin-top: 1350px;
+position: absolute;
+margin-right: 100px;
+}
+.btnReturn {
+	width:85px;
+	height:85px;
+	background:rgba(80,80,80,1);
+	font:bold 13px Arial;
+	border-radius:50%;
+	border:none;
+	color:#fff;
+}
+.btnValide{
+	border: solid 1px;
+	border-radius: 5px;
+	padding: 5px 15px 5px 15px;
+}
+.btnAccept{
+	background-color: #339B0E;
+	border: solid 1px;
+	border-radius: 5px;
+	padding: 5px;
+
+}
+.btnExa{
+	background-color:#EAAD00;
+	border: solid 1px;
+	border-radius: 5px;
+	padding: 5px;
+	margin-left: 25px;
+}
+.btnRef{
+	background-color: #B80000;
+	border: solid 1px;
+	border-radius: 5px;
+	padding: 5px;
+	margin-left: 25px;
+	transition: 0.5s;
+
+}
+.btnRef:hover{
+	border-radius: 0px;
+	transition: 0.25s;
+	padding:7px;
+}
+.btnExa:hover{
+	border-radius: 0px;
+	transition: 0.25s;
+	padding:7px;
+}
+.btnAccept:hover{
+	border-radius: 0px;
+	transition: 0.25s;
+	padding:7px;
+}
+.btnSecr{
+	background-color: rgba(80,80,80,1);
+	color: white;
+	border: solid 5px;
+	border-radius: 5px;
+	border-color: rgba(60,60,60,1);
+	padding: 10px 15px 10px 15px;
+	margin-left: 25px;
+	transition: 0.5s;
+	margin-top: 20px;
+	font-size:20px;
+
+}
+
+.btnProf{
+	background-color: rgba(80,80,80,1);
+	color: white;
+	border: solid 5px;
+	border-radius: 5px;
+	border-color: rgba(60,60,60,1);
+	padding: 10px 15px 10px 15px;
+		margin-left: 25px;
+	transition: 0.5s;
+	margin-top: 20px;
+	font-size:20px;
+}
+
+.btnAdmin{
+	background-color: rgba(80,80,80,1);
+	color: white;
+	border: solid 5px;
+	border-radius: 5px;
+	border-color: rgba(60,60,60,1);
+	padding: 10px 15px 10px 15px;
+	margin-left:10px;
+	transition: 0.5s;
+	margin-top: 20px;
+	font-size:20px;
+}
+
+#a{
+ padding-top:0px ;
+}
+
+#c{
+	padding-top: 5px;
+}
+#d{
+	padding-top: 5px;
+}
+
+table,td {
+    border: 1px solid #333;
+    color:#fff;
+}
+
+.container2b{
+	background-color: rgba(80,80,80,1);
+	width:30em;
+	height: 18em;
+	border:solid 5px;
+	border-color:rgba(60,60,60,1);
+	align-items: center;
+	display: flex;
+	padding-left: 100px;
+	margin-top: 10em;
+}
+.container2c{
+	background-color: rgba(80,80,80,1);
+	width:23em;
+	height: 18em;
+	border:solid 5px;
+	border-color:rgba(60,60,60,1);
+	align-items: center;
+	display: flex;
+	padding-left: 70px;
+	margin-top: 10em;
+}
+.container2d{
+	background-color: rgba(80,80,80,1);
+	width:22em;
+	height: 30em;
+	border:solid 5px;
+	border-color:rgba(60,60,60,1);
+	align-items: center;
+	display: row;
+	padding-left: 70px;
+	margin-top: 18em;
+}
+.btnsb{
+	margin-top: 200px;
+	position: absolute;
+	display:none;
+	margin-left: 38%;
+}
+
+
+/*changement à appliquer si l'écran est mmoins large que 640px*/
+	@media (max-width: 640px) {
+		p{
+			padding-bottom: 20px;
+		}
+ 		.btnRef{
+			margin-left: 5px;
+		}
+		.btnExa{
+			margin-left: 5px;
+		}
+		.btns{
+			margin-top: 1400px;
+			position: absolute;
+			margin-right:0px;
+		}
+		.infoCand{
+			padding-left: 1em;
+			margin-top: 10px;
+		}
+		.vlrcand{
+			margin-top: 75px;
+		}
+		.container2{
+			margin-top: 35em;
+			height: 49em;
+		}
+		#f{
+			padding-top: 30px;
+		}
+		#e{
+			padding-top: 0px;
+		}
+	}
+
+
+

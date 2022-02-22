@@ -1,0 +1,20 @@
+<?php //tableau pour les identifiants
+    $id = ['secrétaire', 'admin', 'évaluateur'];
+?>
+<?php //tableau pour les mots de passe
+    $mdp = ['123', '1234', '12345'];
+?>
+
+<?php //Codition pour vérifier l'identifiant et le mot de passe
+if ($_POST['username'] == $id[0] && $_POST['password'] == $mdp[0]) {
+    include 'secretaire.php'; //inclut le code correspondant à l'utilisateur qui se connecte
+} elseif ($_POST['username'] == $id[1] && $_POST['password'] == $mdp[1]) {
+    include 'admin.php';
+} elseif ($_POST['username'] == $id[2] && $_POST['password'] == $mdp[2]) {
+    include 'evaluateur.php';
+} else {
+    header('Location: index.php?erreur=1');
+    /*dans le cas ou l'identifiant ou le mot de passe est faux
+    on retourne à l'index et on donne la valeur 1 à la variable erreur */
+}
+?>
